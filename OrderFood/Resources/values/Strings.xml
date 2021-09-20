@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="Application">Order Food</string>
+  <string name="Title">My Order</string>
+  <string name="More">Add More</string>
+  <string name="Order">Add Order</string>
+  <string name="Next">Continue</string>
+  <string name="Total">Total</string>
+  <string name="Cost">60,000 TZS</string>
+  <string name="Delivery">Delivery</string>
+  <string name="Free">Free</string>
+  
+</resources>

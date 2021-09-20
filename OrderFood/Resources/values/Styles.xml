@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+  <style name="Theme.Light" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">@color/ColorPrimary</item>
+    <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
+    <item name="colorAccent">@color/ColorAccent</item>
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="android:windowLightStatusBar">true</item>
+    <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    <item name="android:windowBackground">@drawable/Background</item>
+    <item name="android:statusBarColor">@android:color/transparent</item>
+    <!--<item name="android:navigationBarColor">@android:color/transparent</item>-->
+    <!--<item name="android:windowLightNavigationBar">true</item>-->
+    <item name="android:textSize">16sp</item>
+    <item name="android:textColor">@color/ColorAccent</item>
+    <item name="android:textAllCaps">false</item>
+    <item name="android:typeface">sans</item>
+    <item name="android:fontFamily">sans-serif</item>
+    <item name="android:textColorHint">@color/Silver</item>
+    <item name="android:colorControlNormal">@color/ColorPrimary</item>
+    <item name="android:colorControlActivated">@color/ColorPrimary</item>
+    <item name="android:colorControlHighlight">@color/ColorPrimary</item>
+    <item name="android:scrollbarThumbVertical">@drawable/Scrollbar</item>
+  </style>
+  <style name="Theme.Fullscreen" parent="Theme.Light">
+    <item name="android:windowFullscreen">true</item>
+  </style>
+  <style name="Theme.View" parent="Theme.Light">
+    <item name="android:windowTranslucentStatus">true</item>
+    <item name="android:windowLightStatusBar">false</item>
+  </style>
+</resources>
